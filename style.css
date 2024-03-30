@@ -1,0 +1,132 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+
+.a{
+    background: linear-gradient(to right,#200122,#6f0000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding-block: 15px;
+    position:sticky;
+    top: 0;
+  }
+nav>h5{
+    display: inline-block;
+    margin-inline: 15px;  
+    
+}
+nav>input{
+    width:30%;
+    border:none;
+    font-size: large;
+}
+nav > input:focus {
+    outline: none;
+}
+
+nav>span{
+    background-color: rgba(0, 0,0,0.1);
+    padding: 2px;
+}
+.shoe{
+    padding: 6% 10%;
+    background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size: larger;
+    color: white;
+}
+
+.shoe>header{
+    padding:3%;
+    width:65%;
+    background-color:rgba(0, 0,0,0.5);
+   
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.air{
+    padding:1% 5%;
+    background-color: rgba(0, 0,0,0.1);
+}
+
+.air1{
+    padding:1%;
+    background-color: rgba(0, 0,0,0.3);
+}
+.air1{
+    margin-block: 10px;
+    color: rgba(0, 0,0,0.7);
+}
+.imgbox{
+    height: 50px;
+    width: 120px;
+    display: inline-block;
+    margin-inline: 2px;  
+    background-color: rgba(0, 0,0,0.4);
+    color: white;
+    padding:0.1%;
+}
+
+.jorden{
+    background: linear-gradient(to left,#000000, #434343);
+}
+.m{
+    width:100%;
+    height:100vh;
+    position:relative;
+    overflow: hidden;
+}
+
+.box{
+    width: 85%;
+    height: 75%;
+    padding: 2%;
+    margin:auto;
+    margin-top: 7.5%;
+    box-shadow: 0px 0px 10px gray;
+}
+.cont{
+    max-width: 40%;
+    color: white;
+}
+
+.cont>h1{
+    font-size:xx-large;
+    margin-bottom: 30px;
+}
+.cont>p{
+    font-size: large;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.image{
+    position:absolute;
+    right:10%;
+    top:20%;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    box-shadow:8px 8px 8px white;
+    
+}
+.image:hover{
+    right:15%;
+    top:25%;
+    width:400%;
+    height:400%;
+}
